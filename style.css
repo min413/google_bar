@@ -1,0 +1,121 @@
+:root {
+    --text-color: #f0f4f5;
+    --background-color: #0077b6;
+    --accent-color: #48cae4;
+    --menu-color: #03045e;
+}
+
+.body{
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.googleBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--background-color);
+    padding:6px 10px;
+}
+
+.google_logo {
+    font-size: 24px;
+    color: var(--text-color);
+    padding: 8px 10px
+}
+
+.google_logo i {
+    color: var(--accent-color);
+}
+
+.google_searchBar {
+    display: flex;
+}
+
+.google_icons {
+    list-style: none;
+    color: var(--accent-color);
+    display: flex;
+    padding-left: 0;
+    font-size: 24px;
+}
+
+.google_icons li {
+    padding: 3px 5px;
+}
+
+.google_menu {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background-color: var(--menu-color);
+    padding: 7px 10px
+}
+
+.google_menu li{
+    padding: 8px 12px;
+}
+
+.google_menu li:hover {
+    background-color: var(--accent-color);
+    border-radius: 4px;
+}
+
+.google_toogleBtn {
+    display: none;
+    position: absolute;
+    right:25px;
+    font-size: 24px;
+    
+}
+
+@media screen and (max-width: 786px){
+    .googleBar{
+        flex-direction: column;
+        padding: 8px 24px;
+    }
+
+    .google_logo{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .google_icons{
+        
+        justify-content: center;
+        width: 100%;
+    }
+
+    .googleBar_menu {
+        display: flex;
+        width: 100%;
+    }
+    
+    .google_menu{
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width:100%;
+        
+    }
+
+    .google_menu li{
+        width:100%;
+        text-align: center;
+    }
+
+    
+
+    .google_toogleBtn {
+        display: block;
+    }
+
+    .google_menu.active{
+        display: flex;
+    }
+    
+}

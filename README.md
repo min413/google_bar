@@ -5,12 +5,11 @@
 
 ## 큰 화면
 ![image](https://github.com/min413/google_bar/assets/49319275/3fccfe98-2d5a-43a2-9943-cb55ca0f3611)
-
-
+<br>
 
 ## 작은 화면1
 ![image](https://github.com/min413/google_bar/assets/49319275/1475889a-371c-490c-9799-e7a4741aff51)
-
+<br>
 
 
 ## 작은 화면2
